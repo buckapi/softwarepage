@@ -3682,5 +3682,27 @@ blockquote .name-designation .designation {
     padding: 10px; /* Ajusta el espaciado entre la imagen y el texto, si es necesario */
 }
 
+#popup {
+  position: fixed;
+  bottom: 138px;
+  right: 20px;
+  background-color: #DCF8C6;
+  padding: 10px;
+  border: 1px solid gray;
+    border-radius: 35px 35px 0 35px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+   z-index: 9999;
+}
+/*.chat-message {
+  background-color: #DCF8C6;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  max-width: 250px; /* Puedes ajustar el ancho máximo según tus preferencias */
+}*/
+
+
 
 
