@@ -398,17 +398,6 @@
 
     });
 
-    const whatsappButton = document.getElementById('whatsappButton');
-    const popup = document.getElementById('popup');
-
-    whatsappButton.addEventListener('click', () => {
-      if (popup.style.display === 'none') {
-        popup.style.display = 'block';
-      } else {
-        popup.style.display = 'none';
-      }
-    });
-
 
     /* ==========================================================================
        When document is loaded, do
@@ -454,3 +443,16 @@
     }
 
 })(window.jQuery);
+
+
+    const whatsappButton = document.getElementById('whatsappButton');
+    const popup = document.getElementById('popup');
+
+    whatsappButton.addEventListener('click', () => {
+      if (popup.style.display === 'none') {
+        popup.style.display = 'block';
+      } else {
+        popup.style.display = 'none';
+      }
+    });
+
