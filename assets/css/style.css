@@ -179,6 +179,7 @@ li {
 img {
     max-width: 100%;
     display: inline-block;
+    border-radius: 7%;
 }
 
 header:after,
@@ -3654,4 +3655,32 @@ blockquote .name-designation .designation {
         color: white;
     }
 }
+
+/* Estilo para el contenedor del servicio */
+.service-item1 {
+    position: relative;
+}
+
+/* Estilo para el contenedor de la imagen */
+.image-container1 {
+    position: absolute;
+    top: 0;
+    left: 0;   
+    transform: translateY(-100%);
+/*    text-align: center;    */
+}
+
+/* Estilo para la imagen */
+.imagen1 {
+    width: 50%;
+    height: auto;
+}
+
+/* Estilo para el contenido (texto) */
+.content1 {
+    margin-top: 50%; /* Añadimos un margen superior igual al 50% del contenedor de la imagen */
+    padding: 10px; /* Ajusta el espaciado entre la imagen y el texto, si es necesario */
+}
+
+
 

@@ -632,7 +632,7 @@
     .contact-form .theme-btn i,
     .solutions-tab-nav .nav-link p,
     .solutions-tab-nav .nav-link > i {
-        display: none;
+/*        display: none;*/
     }
     .solution-item-three > i {
         height: 55px;
